@@ -1,0 +1,6 @@
+{
+  "name": "S!pad",
+  "description": "Customizable virtual gamepad for Samsung Smart TVs and local gaming with RGB lighting and custom layouts",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

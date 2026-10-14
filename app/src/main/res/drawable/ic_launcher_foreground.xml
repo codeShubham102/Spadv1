@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.82"
+        android:scaleY="0.82"
+        android:translateX="9.7"
+        android:translateY="9.7">
+        
+        <!-- Controller Outer Body Shadow/Glow -->
+        <path
+            android:fillColor="#3300F0FF"
+            android:pathData="M24,34 C16,34 10,42 8,56 C6,70 12,84 18,88 C24,92 32,84 38,72 L70,72 C76,84 84,92 90,88 C96,84 102,70 100,56 C98,42 92,34 84,34 C74,34 68,40 54,40 C40,40 34,34 24,34 Z" />
+
+        <!-- Controller Main Body -->
+        <path android:pathData="M24,35 C17,35 12,43 10,56 C8,69 13,82 19,86 C24,89 31,82 37,70 L71,70 C77,82 84,89 89,86 C95,82 100,69 98,56 C96,43 91,35 84,35 C74,35 68,41 54,41 C40,41 34,35 24,35 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="54"
+                    android:startY="35"
+                    android:endX="54"
+                    android:endY="86"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#1E293B" />
+                    <item android:offset="1.0" android:color="#0F172A" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Cyber Border Accent -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#00F0FF"
+            android:strokeWidth="1.5"
+            android:pathData="M24,35 C17,35 12,43 10,56 C8,69 13,82 19,86 C24,89 31,82 37,70 L71,70 C77,82 84,89 89,86 C95,82 100,69 98,56 C96,43 91,35 84,35 C74,35 68,41 54,41 C40,41 34,35 24,35 Z" />
+
+        <!-- D-Pad (Left) -->
+        <path
+            android:fillColor="#00F0FF"
+            android:pathData="M24,48 L28,48 L28,52 L32,52 L32,56 L28,56 L28,60 L24,60 L24,56 L20,56 L20,52 L24,52 Z" />
+
+        <!-- Action Buttons (Right) -->
+        <!-- Y Button (Top) -->
+        <path
+            android:fillColor="#BD00FF"
+            android:pathData="M80,50 A2.5,2.5 0 1,0 80,45 A2.5,2.5 0 1,0 80,50 Z" />
+        <!-- A Button (Bottom) -->
+        <path
+            android:fillColor="#00F0FF"
+            android:pathData="M80,63 A2.5,2.5 0 1,0 80,58 A2.5,2.5 0 1,0 80,63 Z" />
+        <!-- X Button (Left) -->
+        <path
+            android:fillColor="#00F0FF"
+            android:pathData="M73.5,56.5 A2.5,2.5 0 1,0 73.5,51.5 A2.5,2.5 0 1,0 73.5,56.5 Z" />
+        <!-- B Button (Right) -->
+        <path
+            android:fillColor="#FF0055"
+            android:pathData="M86.5,56.5 A2.5,2.5 0 1,0 86.5,51.5 A2.5,2.5 0 1,0 86.5,56.5 Z" />
+
+        <!-- Left Analog Thumbstick -->
+        <path
+            android:fillColor="#334155"
+            android:strokeColor="#00F0FF"
+            android:strokeWidth="1"
+            android:pathData="M38,62 A5,5 0 1,0 38,52 A5,5 0 1,0 38,62 Z" />
+        <path
+            android:fillColor="#00F0FF"
+            android:pathData="M38,58 A1.5,1.5 0 1,0 38,55 A1.5,1.5 0 1,0 38,58 Z" />
+
+        <!-- Right Analog Thumbstick -->
+        <path
+            android:fillColor="#334155"
+            android:strokeColor="#BD00FF"
+            android:strokeWidth="1"
+            android:pathData="M66,62 A5,5 0 1,0 66,52 A5,5 0 1,0 66,62 Z" />
+        <path
+            android:fillColor="#BD00FF"
+            android:pathData="M66,58 A1.5,1.5 0 1,0 66,55 A1.5,1.5 0 1,0 66,58 Z" />
+
+        <!-- Center "S!" Emblem -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M52.5,48 L55.5,48 L54,54 Z" />
+        <path
+            android:fillColor="#00F0FF"
+            android:pathData="M54,57 A1,1 0 1,0 54,55 A1,1 0 1,0 54,57 Z" />
+            
+        <!-- Bumpers L1/R1 -->
+        <path
+            android:fillColor="#00F0FF"
+            android:pathData="M24,31 C20,31 16,33 14,36 L28,36 C28,33 26,31 24,31 Z" />
+        <path
+            android:fillColor="#BD00FF"
+            android:pathData="M84,31 C88,31 92,33 94,36 L80,36 C80,33 82,31 84,31 Z" />
+    </group>
+</vector>
